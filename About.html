@@ -10,17 +10,26 @@
       }
       img {
         width: 300px;
-        height: 600px;
-        object-fit: contain;
-        display: block;
-        margin: auto;
+  height: 600px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
       }
       body {
-        background-image: url(Images/ToastCultBR.jpg);
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+       background-image: url(Images/ToastCultBR.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
       }
+@media screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+    background-position: center;}
+  img {
+    width: 100%;
+    height: auto;
+  }
+      
       .text-background {
         background-color: rgba(0, 0, 0, 0.7);
         color: white;
